@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NotWorking_xamarinforms_example_ReactiveUI_14_3_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Using ReactiveUI 14.3.1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button
+            x:Name="Button"
+            Text="Try to invoke a command"/>
+        <Label
+            x:Name="Label"/>
+    </StackLayout>
+
+</ContentPage>
